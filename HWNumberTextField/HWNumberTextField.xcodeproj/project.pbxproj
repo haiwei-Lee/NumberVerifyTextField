@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B228CBC1D92332400C37200 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B228CBB1D92332400C37200 /* main.m */; };
+		4B228CBF1D92332400C37200 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B228CBE1D92332400C37200 /* AppDelegate.m */; };
+		4B228CC21D92332400C37200 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B228CC11D92332400C37200 /* ViewController.m */; };
+		4B228CC51D92332400C37200 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B228CC31D92332400C37200 /* Main.storyboard */; };
+		4B228CC71D92332400C37200 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B228CC61D92332400C37200 /* Assets.xcassets */; };
+		4B228CCA1D92332400C37200 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B228CC81D92332400C37200 /* LaunchScreen.storyboard */; };
+		4B228CD51D92332400C37200 /* HWNumberTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B228CD41D92332400C37200 /* HWNumberTextFieldTests.m */; };
+		4B228CE01D92332400C37200 /* HWNumberTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B228CDF1D92332400C37200 /* HWNumberTextFieldUITests.m */; };
+		4B228CF31D92335B00C37200 /* HWNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B228CEE1D92335B00C37200 /* HWNumberTextField.m */; };
+		4B228CF41D92335B00C37200 /* HWPureNumberTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B228CF01D92335B00C37200 /* HWPureNumberTextField.m */; };
+		4B228CF51D92335B00C37200 /* HWDecimalTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B228CF21D92335B00C37200 /* HWDecimalTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B228CD11D92332400C37200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B228CAF1D92332400C37200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B228CB61D92332400C37200;
+			remoteInfo = HWNumberTextField;
+		};
+		4B228CDC1D92332400C37200 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B228CAF1D92332400C37200 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B228CB61D92332400C37200;
+			remoteInfo = HWNumberTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B228CB71D92332400C37200 /* HWNumberTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWNumberTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B228CBB1D92332400C37200 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B228CBD1D92332400C37200 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B228CBE1D92332400C37200 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B228CC01D92332400C37200 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4B228CC11D92332400C37200 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4B228CC41D92332400C37200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B228CC61D92332400C37200 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B228CC91D92332400C37200 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B228CCB1D92332400C37200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B228CD01D92332400C37200 /* HWNumberTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWNumberTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B228CD41D92332400C37200 /* HWNumberTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWNumberTextFieldTests.m; sourceTree = "<group>"; };
+		4B228CD61D92332400C37200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B228CDB1D92332400C37200 /* HWNumberTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HWNumberTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B228CDF1D92332400C37200 /* HWNumberTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWNumberTextFieldUITests.m; sourceTree = "<group>"; };
+		4B228CE11D92332400C37200 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B228CED1D92335B00C37200 /* HWNumberTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWNumberTextField.h; sourceTree = "<group>"; };
+		4B228CEE1D92335B00C37200 /* HWNumberTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWNumberTextField.m; sourceTree = "<group>"; };
+		4B228CEF1D92335B00C37200 /* HWPureNumberTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPureNumberTextField.h; sourceTree = "<group>"; };
+		4B228CF01D92335B00C37200 /* HWPureNumberTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPureNumberTextField.m; sourceTree = "<group>"; };
+		4B228CF11D92335B00C37200 /* HWDecimalTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWDecimalTextField.h; sourceTree = "<group>"; };
+		4B228CF21D92335B00C37200 /* HWDecimalTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWDecimalTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B228CB41D92332400C37200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B228CCD1D92332400C37200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B228CD81D92332400C37200 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B228CAE1D92332400C37200 = {
+			isa = PBXGroup;
+			children = (
+				4B228CB91D92332400C37200 /* HWNumberTextField */,
+				4B228CD31D92332400C37200 /* HWNumberTextFieldTests */,
+				4B228CDE1D92332400C37200 /* HWNumberTextFieldUITests */,
+				4B228CB81D92332400C37200 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B228CB81D92332400C37200 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B228CB71D92332400C37200 /* HWNumberTextField.app */,
+				4B228CD01D92332400C37200 /* HWNumberTextFieldTests.xctest */,
+				4B228CDB1D92332400C37200 /* HWNumberTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B228CB91D92332400C37200 /* HWNumberTextField */ = {
+			isa = PBXGroup;
+			children = (
+				4B228CF61D92336100C37200 /* NumberTextfield */,
+				4B228CBD1D92332400C37200 /* AppDelegate.h */,
+				4B228CBE1D92332400C37200 /* AppDelegate.m */,
+				4B228CC01D92332400C37200 /* ViewController.h */,
+				4B228CC11D92332400C37200 /* ViewController.m */,
+				4B228CBA1D92332400C37200 /* Supporting Files */,
+			);
+			path = HWNumberTextField;
+			sourceTree = "<group>";
+		};
+		4B228CBA1D92332400C37200 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B228CC31D92332400C37200 /* Main.storyboard */,
+				4B228CC61D92332400C37200 /* Assets.xcassets */,
+				4B228CC81D92332400C37200 /* LaunchScreen.storyboard */,
+				4B228CCB1D92332400C37200 /* Info.plist */,
+				4B228CBB1D92332400C37200 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B228CD31D92332400C37200 /* HWNumberTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B228CD41D92332400C37200 /* HWNumberTextFieldTests.m */,
+				4B228CD61D92332400C37200 /* Info.plist */,
+			);
+			path = HWNumberTextFieldTests;
+			sourceTree = "<group>";
+		};
+		4B228CDE1D92332400C37200 /* HWNumberTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B228CDF1D92332400C37200 /* HWNumberTextFieldUITests.m */,
+				4B228CE11D92332400C37200 /* Info.plist */,
+			);
+			path = HWNumberTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		4B228CF61D92336100C37200 /* NumberTextfield */ = {
+			isa = PBXGroup;
+			children = (
+				4B228CED1D92335B00C37200 /* HWNumberTextField.h */,
+				4B228CEE1D92335B00C37200 /* HWNumberTextField.m */,
+				4B228CEF1D92335B00C37200 /* HWPureNumberTextField.h */,
+				4B228CF01D92335B00C37200 /* HWPureNumberTextField.m */,
+				4B228CF11D92335B00C37200 /* HWDecimalTextField.h */,
+				4B228CF21D92335B00C37200 /* HWDecimalTextField.m */,
+			);
+			name = NumberTextfield;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B228CB61D92332400C37200 /* HWNumberTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B228CE41D92332400C37200 /* Build configuration list for PBXNativeTarget "HWNumberTextField" */;
+			buildPhases = (
+				4B228CB31D92332400C37200 /* Sources */,
+				4B228CB41D92332400C37200 /* Frameworks */,
+				4B228CB51D92332400C37200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWNumberTextField;
+			productName = HWNumberTextField;
+			productReference = 4B228CB71D92332400C37200 /* HWNumberTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B228CCF1D92332400C37200 /* HWNumberTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B228CE71D92332400C37200 /* Build configuration list for PBXNativeTarget "HWNumberTextFieldTests" */;
+			buildPhases = (
+				4B228CCC1D92332400C37200 /* Sources */,
+				4B228CCD1D92332400C37200 /* Frameworks */,
+				4B228CCE1D92332400C37200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B228CD21D92332400C37200 /* PBXTargetDependency */,
+			);
+			name = HWNumberTextFieldTests;
+			productName = HWNumberTextFieldTests;
+			productReference = 4B228CD01D92332400C37200 /* HWNumberTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B228CDA1D92332400C37200 /* HWNumberTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B228CEA1D92332400C37200 /* Build configuration list for PBXNativeTarget "HWNumberTextFieldUITests" */;
+			buildPhases = (
+				4B228CD71D92332400C37200 /* Sources */,
+				4B228CD81D92332400C37200 /* Frameworks */,
+				4B228CD91D92332400C37200 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B228CDD1D92332400C37200 /* PBXTargetDependency */,
+			);
+			name = HWNumberTextFieldUITests;
+			productName = HWNumberTextFieldUITests;
+			productReference = 4B228CDB1D92332400C37200 /* HWNumberTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B228CAF1D92332400C37200 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Lucy_Lee;
+				TargetAttributes = {
+					4B228CB61D92332400C37200 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					4B228CCF1D92332400C37200 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B228CB61D92332400C37200;
+					};
+					4B228CDA1D92332400C37200 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4B228CB61D92332400C37200;
+					};
+				};
+			};
+			buildConfigurationList = 4B228CB21D92332400C37200 /* Build configuration list for PBXProject "HWNumberTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B228CAE1D92332400C37200;
+			productRefGroup = 4B228CB81D92332400C37200 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B228CB61D92332400C37200 /* HWNumberTextField */,
+				4B228CCF1D92332400C37200 /* HWNumberTextFieldTests */,
+				4B228CDA1D92332400C37200 /* HWNumberTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B228CB51D92332400C37200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B228CCA1D92332400C37200 /* LaunchScreen.storyboard in Resources */,
+				4B228CC71D92332400C37200 /* Assets.xcassets in Resources */,
+				4B228CC51D92332400C37200 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B228CCE1D92332400C37200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B228CD91D92332400C37200 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B228CB31D92332400C37200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B228CC21D92332400C37200 /* ViewController.m in Sources */,
+				4B228CF41D92335B00C37200 /* HWPureNumberTextField.m in Sources */,
+				4B228CBF1D92332400C37200 /* AppDelegate.m in Sources */,
+				4B228CBC1D92332400C37200 /* main.m in Sources */,
+				4B228CF51D92335B00C37200 /* HWDecimalTextField.m in Sources */,
+				4B228CF31D92335B00C37200 /* HWNumberTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B228CCC1D92332400C37200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B228CD51D92332400C37200 /* HWNumberTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B228CD71D92332400C37200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B228CE01D92332400C37200 /* HWNumberTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B228CD21D92332400C37200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B228CB61D92332400C37200 /* HWNumberTextField */;
+			targetProxy = 4B228CD11D92332400C37200 /* PBXContainerItemProxy */;
+		};
+		4B228CDD1D92332400C37200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B228CB61D92332400C37200 /* HWNumberTextField */;
+			targetProxy = 4B228CDC1D92332400C37200 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B228CC31D92332400C37200 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B228CC41D92332400C37200 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B228CC81D92332400C37200 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B228CC91D92332400C37200 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B228CE21D92332400C37200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B228CE31D92332400C37200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B228CE51D92332400C37200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWNumberTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gome.HWNumberTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B228CE61D92332400C37200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HWNumberTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gome.HWNumberTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B228CE81D92332400C37200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HWNumberTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gome.HWNumberTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWNumberTextField.app/HWNumberTextField";
+			};
+			name = Debug;
+		};
+		4B228CE91D92332400C37200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HWNumberTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gome.HWNumberTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWNumberTextField.app/HWNumberTextField";
+			};
+			name = Release;
+		};
+		4B228CEB1D92332400C37200 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HWNumberTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gome.HWNumberTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HWNumberTextField;
+			};
+			name = Debug;
+		};
+		4B228CEC1D92332400C37200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HWNumberTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gome.HWNumberTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HWNumberTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B228CB21D92332400C37200 /* Build configuration list for PBXProject "HWNumberTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B228CE21D92332400C37200 /* Debug */,
+				4B228CE31D92332400C37200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B228CE41D92332400C37200 /* Build configuration list for PBXNativeTarget "HWNumberTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B228CE51D92332400C37200 /* Debug */,
+				4B228CE61D92332400C37200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B228CE71D92332400C37200 /* Build configuration list for PBXNativeTarget "HWNumberTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B228CE81D92332400C37200 /* Debug */,
+				4B228CE91D92332400C37200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B228CEA1D92332400C37200 /* Build configuration list for PBXNativeTarget "HWNumberTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B228CEB1D92332400C37200 /* Debug */,
+				4B228CEC1D92332400C37200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B228CAF1D92332400C37200 /* Project object */;
+}
